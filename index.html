@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Palecanda Neharika Chinnappa | Portfolio</title>
+  <meta name="description" content="Portfolio website of Palecanda Neharika Chinnappa, 1st year B.Tech CSE student." />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <div class="logo">Portfolio</div>
+      <nav class="nav-links">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1>Hi, I’m Palecanda Neharika Chinnappa</h1>
+          <p>1st year B.Tech CSE student, learning web development</p>
+          <div class="hero-buttons">
+            <a href="https://github.com/NeharikaChinnappa" target="_blank" class="btn primary">GitHub</a>
+            <a href="https://www.example.com" target="_blank" class="btn secondary">LinkedIn</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <!-- Three.js canvas will go here later -->
+          <div id="three-container"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I am a first-year Computer Science student with experience in C, Python, Flask, HTML, and CSS.
+          I enjoy building projects that help me understand core concepts deeply.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li>C</li>
+          <li>Python</li>
+          <li>Flask</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Currently learning JavaScript and Three.js</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>Offline notes</h3>
+            <p>A web-app dev project that allows users to make notes offline and save onto the database when online</p>
+            <a href="https://github.com/NeharikaChinnappa/offline_notes" class="project-link" target="_blank">View on GitHub</a>
+          </article>
+
+          <article class="project-card">
+            <h3>Raja-Mantri-Chor-Sipahi</h3>
+            <p>A backend program that brings back the classic Raja-mantri-chor-sipahi game virtually</p>
+            <a href="#" class="project-link" target="_blank">View on GitHub</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>You can reach me at: <a href="mailto:neharikachinnappa@gmail.com">neharikachinnappa@gmail.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p> &copy; 2025 Neharika Chinnappa.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
